@@ -10,8 +10,6 @@ export const UserWithAvatarFragment = gql`
   fragment UserWithAvatarFragment on User {
     ...UserComponentFragment
     avatar
-    email
-    username
   }
 `;
 
